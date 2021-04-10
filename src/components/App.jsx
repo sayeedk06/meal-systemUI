@@ -1,9 +1,9 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 
-
-export default function(){
+export default function App(){
     return (
-        <p>Hellp</p>
+        <Navbar />
     )
 }
