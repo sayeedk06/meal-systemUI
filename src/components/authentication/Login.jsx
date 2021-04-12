@@ -9,6 +9,10 @@ import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Input from '@material-ui/core/Input';
+import {
+    Link
+  } from "react-router-dom";
+
 export default function Login(){
 
     const [values, setValues] = React.useState({
@@ -70,9 +74,10 @@ export default function Login(){
         <hr/>
         <div style={{marginTop:'10px', marginBottom:'10px'}}>
         <FormControl fullWidth={true}>
-        <Button variant="contained">
-            Create new Account
+        <Link to="/signup"><Button variant="contained">
+        Create new Account
         </Button>
+        </Link> 
         </FormControl>
         </div>
         </Paper>
