@@ -22,6 +22,7 @@ export default function Home(){
                 <Route path="/profile">
                 <div>
                     <Profile/>
+                    <Footer/>
                 </div>
                 </Route>
 

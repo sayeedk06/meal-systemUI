@@ -2,30 +2,33 @@ import React from "react";
 import Paper from '@material-ui/core/Paper';
 export default function Profile (){
     return (
-        <div className='container profile'>
-
+        <div className='profile'>
             <div className='row'>
-                <div className='col-3'>
-                <Paper elevation={3}>
-                
-                <h6>Groups</h6>
-                <p>Group 1</p>
-                <p>Group 1</p>
-                <p>Group 1</p>
-                 
-                </Paper>
+                <div className='group col-2'>
+                    <h6> Groups </h6><hr/>
                 </div>
-                <div className='col-9'>
-                <Paper elevation={3}>
-                <h6>
-                    Name: Sayeed Md. Shaiban
-                </h6>
-                <h6>
-                    Email: Sayeed.k06@gmail.com
-                </h6>
-                
-                 
-                </Paper>
+                <div className='dashboard col-9'>
+                    <div className='row'>
+                        <div className='usage col-4'> 
+                            <p>Your Usage:</p> <hr/>
+                        </div>
+                        <div className='usage col-4'>
+                           <p>Total Group Usage:</p> <hr/> 
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='usage col-5'>
+                            <form>
+                               <p>Add meal</p><hr/> 
+
+                               <input type="text" placeholder='Month Name'/>
+                               <input type="text" placeholder='Year'/>
+                               <input type="text" placeholder='Meal Number'/>
+                               <button>Submit</button>
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
 
             </div>
