@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Meal System
+This is the frontend of an app using react that would ultimately be connected to an API
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
